@@ -32,6 +32,14 @@ app.post("/api/graph", (req, res) => {
   }
 });
 
+app.post("/bfhl", (req, res) => {
+  try {
+    res.json(processGraph(req.body, profile));
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
