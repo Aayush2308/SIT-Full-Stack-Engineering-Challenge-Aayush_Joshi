@@ -1,9 +1,9 @@
 import { processGraph } from "../src/processGraph.js";
 
 const profile = {
-  user_id: process.env.USER_ID || "yourname_yyyymmdd",
-  email_id: process.env.EMAIL_ID || "your.email@example.com",
-  enrollment_number: process.env.ENROLLMENT_NUMBER || "YOUR_ROLL_NUMBER"
+  user_id: process.env.USER_ID || "Aayush-Joshi_20040823",
+  email_id: process.env.EMAIL_ID || "aayush.joshi.btech2023@sitpune.edu.in",
+  enrollment_number: process.env.ENROLLMENT_NUMBER || "23070122008"
 };
 
 export default function handler(req, res) {

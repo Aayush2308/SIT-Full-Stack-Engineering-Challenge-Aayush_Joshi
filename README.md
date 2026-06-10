@@ -32,7 +32,7 @@ http://localhost:3000
 For Vercel deployment, add these environment variables before deploying:
 
 ```txt
-USER_ID=firstname_yyyymmdd
-EMAIL_ID=your university email
-ENROLLMENT_NUMBER=your roll/enrollment number
+USER_ID=Aayush-Joshi_20040823
+EMAIL_ID=aayush.joshi.btech2023@sitpune.edu.in
+ENROLLMENT_NUMBER=23070122008
 ```
