@@ -11,9 +11,9 @@ const __dirname = path.dirname(__filename);
 const publicDir = path.join(__dirname, "public");
 
 const profile = {
-  user_id: process.env.USER_ID || "aayushjoshi_20040823",
-  email_id: process.env.EMAIL_ID || "aayush.joshi.btech2023@sitpune.edu.in",
-  enrollment_number: process.env.ENROLLMENT_NUMBER || "23070122008"
+  user_id: (process.env.USER_ID || "aayushjoshi_20040823").trim(),
+  email_id: (process.env.EMAIL_ID || "aayush.joshi.btech2023@sitpune.edu.in").trim(),
+  enrollment_number: (process.env.ENROLLMENT_NUMBER || "23070122008").trim()
 };
 
 app.use(cors());
