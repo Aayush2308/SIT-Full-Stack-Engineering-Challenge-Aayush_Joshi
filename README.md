@@ -29,7 +29,7 @@ Open:
 http://localhost:3000
 ```
 
-For Vercel deployment, add these environment variables before deploying:
+
 
 ```txt
 USER_ID=Aayush-Joshi_20040823
