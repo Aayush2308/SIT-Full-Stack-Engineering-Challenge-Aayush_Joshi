@@ -37,8 +37,6 @@ export function processGraph(body, profile) {
     edgeSeen.add(entry);
 
     if (parentByChild.has(child)) {
-      nodes.add(parent);
-      nodes.add(child);
       continue;
     }
 

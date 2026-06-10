@@ -1,7 +1,7 @@
 import { processGraph } from "../src/processGraph.js";
 
 const profile = {
-  user_id: process.env.USER_ID || "Aayush-Joshi_20040823",
+  user_id: process.env.USER_ID || "aayushjoshi_20040823",
   email_id: process.env.EMAIL_ID || "aayush.joshi.btech2023@sitpune.edu.in",
   enrollment_number: process.env.ENROLLMENT_NUMBER || "23070122008"
 };

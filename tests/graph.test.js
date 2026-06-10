@@ -35,4 +35,7 @@ const multiParent = processGraph({ edges: ["A->D", "B->D", "B->C"] }, profile);
 assert.deepEqual(multiParent.hierarchies.find((item) => item.root === "A").tree, { A: { D: {} } });
 assert.deepEqual(multiParent.hierarchies.find((item) => item.root === "B").tree, { B: { C: {} } });
 
+const discardedParent = processGraph({ edges: ["A->D", "B->D"] }, profile);
+assert.deepEqual(discardedParent.hierarchies.map((item) => item.root), ["A"]);
+
 console.log("All graph tests passed.");
